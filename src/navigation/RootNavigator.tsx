@@ -29,7 +29,7 @@ export function RootNavigator() {
       <Stack.Screen
         name="Home"
         component={HomeScreen}
-        options={{ title: '접근성 캘린더' }}
+        options={{ title: '이지 캘린더' }}
       />
       <Stack.Screen
         name="AddEvent"

@@ -87,9 +87,9 @@ export function HomeScreen({ navigation }: Props) {
         <Text
           style={[styles.title, { color: theme.colors.text }]}
           accessibilityRole="header"
-          accessibilityLabel="접근성 캘린더, 오늘과 예정된 일정"
+          accessibilityLabel="이지 캘린더, 오늘과 예정된 일정"
         >
-          접근성 캘린더
+          이지 캘린더
         </Text>
         <AccessibleButton
           label="일정 추가"
