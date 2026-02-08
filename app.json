@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "접근성 캘린더",
+    "slug": "accessible-calendar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "일정을 조회하고 추가·수정·삭제하기 위해 캘린더 접근이 필요합니다.",
+        "NSCalendarsFullAccessUsageDescription": "일정을 조회하고 추가·수정·삭제하기 위해 캘린더 접근이 필요합니다."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "permissions": [
+        "READ_CALENDAR",
+        "WRITE_CALENDAR"
+      ]
+    },
+    "plugins": [
+      "expo-calendar",
+      "expo-asset"
+    ]
+  }
+}
