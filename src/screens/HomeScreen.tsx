@@ -144,25 +144,25 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
   },
   title: {
-    fontSize: 11,
+    fontSize: 22,
     fontWeight: '700',
   },
   addBtn: {
     minWidth: 100,
   },
   message: {
-    fontSize: 8,
+    fontSize: 16,
     marginBottom: 16,
     textAlign: 'center',
   },
   error: {
     paddingHorizontal: 16,
     paddingVertical: 8,
-    fontSize: 7,
+    fontSize: 14,
   },
   empty: {
     padding: 24,
     textAlign: 'center',
-    fontSize: 8,
+    fontSize: 16,
   },
 });
